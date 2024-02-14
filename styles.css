@@ -1,0 +1,134 @@
+body {
+    font-family: 'Caveat', sans-serif;
+    background-color: pink;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.Text1 {
+    width: 50%; /* Adjust the width as needed */
+    height: 8vh; /* Use viewport units for height */
+    margin-left: 28%; /* Adjust the left margin as needed */
+    margin-top: 20vh;
+    font-weight: bold;
+    font-size: 180%;
+    
+}
+
+.letter-emoji {
+    width: 20vw;
+    height:10vh;
+    margin-left: 41%;
+    margin-top: 10vh;
+    font-size: 250%;
+}
+.arrow {
+    text-align: center;
+    margin-top: 10%; /* Adjust the margin as needed */
+
+
+}
+
+.arrow img {
+    width: 70px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    transform: scaleX(-1) scaleY(-1) rotate(75deg);
+    animation: arrowAnimation 5s cubic-bezier(0.70, -0.55, 0.27, 1.55) infinite;
+}   
+
+@keyframes arrowAnimation {
+    0%, 100% {
+        transform: scaleX(-1) scaleY(-1) rotate(75deg) translateX(0);
+    }
+    50% {
+        transform: scaleX(-1) scaleY(-1) rotate(72deg) translateX(20px);
+    }
+}
+    
+    
+.Text2 {
+    width: 30%;
+    height: 5vh;
+    margin-left: 36%;
+    margin-top:3vh;
+    font-size: 130%;
+}
+
+.cat-container {
+    overflow: hidden;
+    width: 10vw;
+    height: 10vh;
+}
+.cat{
+    width: 100px;
+    height: auto;
+    position: fixed;
+}
+.Text3{
+    width: 90%; /* Adjust the width as needed */
+    height: 8vh; 
+    margin-left: 10%; 
+    margin-top: 20vh;
+    font-weight: bold;
+    font-size: 180%;
+}
+
+.floweremoji {
+    width: 15%;
+    font-size: 180%;
+    position: absolute;
+    left: 25%;
+    top: 40%; /* Adjust the top value */
+}
+.rose{
+    width: 10%;
+    font-size: 180%;
+    margin-left: 12%;
+    top:40%;
+    position: absolute;
+}
+.pink{
+    width: 10%;
+    font-size: 180%;
+    margin-left: 25%;
+    top:30%;
+    position: absolute;
+}
+.tulip{
+    width: 10%;
+    font-size: 180%;
+    margin-left: 80%;
+    top:30%;
+    position: absolute;
+}
+.guitar{
+    width: 10%;
+    font-size: 180%;
+    margin-left: 80%;
+    top:45%;
+    position: absolute;
+}
+
+.Text4{
+    width: 50%;
+    height: 5vh;
+    margin-left: 30%;
+    margin-top:10vh;
+    font-size: 130%;
+}
+.bigcat img {
+    width: 50%; /* Adjust the width percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 22%;
+    margin-top: 4%;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 200px) {
+    .bigcat img {
+      width: 100%; /* Adjust for smaller screens if needed */
+    }
+  }
+  
+  
